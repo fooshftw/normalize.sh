@@ -18,7 +18,7 @@ if [ -z "$Project" ];
         Files=(base forms grid headings links lists media tables typography utility)
 
         S_User=$(env | grep SUDO_USER | cut -d"=" -f2)
-        Base=/home/{$S_USER}/${Project}/base
+	Base=/home/${S_USER}/${Project}/base
         mkdir -p "$Base"
 	cd $Base
         touch "_${Files[@]/%/.scss}"
