@@ -5,12 +5,12 @@ Version 1.0
 
 Bash script to separate <a href="https://github.com/necolas/normalize.css/blob/master/normalize.css">normalize.css</a> into sass partials
 
-Setup just requires downloading the script or cloning the repo and ensuring it is executable. Sudo may be required for commands, or to run the script itself.
+Setup just requires downloading the script or cloning the repo and ensuring it is executable. 
 
  cd ~ <br/>
  Clone this github repository <br/>
- chmod 744 ~/normalize.sh <br/>
- ~/normalize.sh <br/>
+ cd ~/normalize.sh <br/>
+ ~/normalize.sh  (May require sudo)<br/>
 
 You enter a project name, it creates ~/$Project/base, with the following files:
 
