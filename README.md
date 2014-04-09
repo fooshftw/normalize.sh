@@ -8,7 +8,7 @@ Bash script to separate normalize.css into sass partials
 Sudo may be required for commands, or to run the script itself.
 
  cd ~ <br/>
- Clone thisgithub repository <br/>
+ Clone this github repository <br/>
  chmod 744 ~/normalize.sh <br/>
  ~/normalize.sh <br/>
 
